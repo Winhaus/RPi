@@ -13,12 +13,12 @@ int main(int argc, char * argv[])
 	
 	if(argc != 2)
 	{
-		exit();
+		exit(-1);
 	}
 	else
 	{
 		wiringPiISR (23, INT_EDGE_RISING, EchoCac);
-		if((* argv[1]) == ‘1’)
+		if((* argv[1]) == '1')
 		{
 			digitalWrite(22, HIGH);
 			delay(1);
