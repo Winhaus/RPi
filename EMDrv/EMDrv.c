@@ -2,11 +2,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-void EchoCac(void);
 
-
-int t, t_start,t_end;
-int Dist;
 	
 
 int main(int argc, char * argv[])
