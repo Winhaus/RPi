@@ -17,7 +17,7 @@ int main(int argc, char * argv[])
 	
 	pinMode (26, OUTPUT);
 	
-	pinMode (20, INPUT);
+	pinMode (20, OUTPUT);
 
 		
 
